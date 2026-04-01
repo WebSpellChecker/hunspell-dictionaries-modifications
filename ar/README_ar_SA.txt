@@ -7,3 +7,8 @@ Used under: MPL 1.1
 License file: https://github.com/linuxscout/ayaspell?tab=License-1-ov-file
 Current version: from Dec 16, 2016
 Modified: Yes
+
+CHANGELOG
+
+2026-04-01 (WebSpellChecker)
+  - The dictionary was incorrectly accepting أل (with hamza) as a valid form of the definite article. In standard Arabic the only correct form is ال (without hamza). All instances of this error have been removed from the .aff file, so the spellchecker will now flag words like ألكتاب or ألمدرسة as incorrect and suggest the proper forms الكتاب and المدرسة.
