@@ -24174,10 +24174,11 @@ MAP دذ
 MAP ظز
 MAP زذ
 
-REP  80
+REP  81
 REP ^إست است
 REP إ ا
 REP اا ا_ا
+REP ^أل ال
 REP ى$ ي
 REP ض ظ
 REP ظ ض
@@ -24262,29 +24263,26 @@ REP ةي ة_ي
 # Prefixes noms  الزيادات السابقة للاسم	
 # Prefixes معرف بالإضافة/نكرة - مرفوع - كتابُ	
 	
-PFX	nr	Y	9	
+PFX	nr	Y	8	
 PFX nr 0 أ [^ا]
 PFX nr ا أ ا
 PFX nr 0 و .
 PFX nr 0 ف .
 PFX nr 0 ل .
 PFX nr 0 أو .
-PFX nr 0 أف .
 PFX nr 0 ول .
 PFX nr 0 فل .
 	
 	
 # Prefixes معرف بالإضافة/نكرة - منصوب - كتابَ	
 	
-PFX	nn	Y	10	
+PFX	nn	Y	8	
 PFX nn 0 أ [^ا]
 PFX nn ا أ ا
 PFX nn 0 و .
 PFX nn 0 ف .
 PFX nn 0 ل .
-PFX nn 0 و .
 PFX nn 0 أو .
-PFX nn 0 أف .
 PFX nn 0 ول .
 PFX nn 0 فل .
 #PFX	nn	0	لو	.
@@ -24292,15 +24290,13 @@ PFX nn 0 فل .
 	
 # Prefixes معرف بالإضافة/نكرة - مجرور - كتابِ	
 	
-PFX	nj	Y	27	
+PFX	nj	Y	25	
 PFX nj 0 و .
 PFX nj 0 ف .
 PFX nj 0 و .
 PFX nj 0 ب .
 PFX nj 0 ل .
 PFX nj 0 ك .
-PFX nj 0 أب .
-PFX nj 0 أل .
 PFX nj 0 أك .
 PFX nj 0 وب .
 PFX nj 0 ول .
@@ -24323,15 +24319,16 @@ PFX nj 0 أفك .
 	
 # Prefixes معرف بال - مرفوع - الكتابُ	
 	
-PFX	mr	Y	12	
+PFX mr  Y   13
 PFX mr 0 ال .
 PFX mr 0 آل .
 PFX mr 0 وال .
 PFX mr 0 فال .
+PFX mr 0 بال .
+PFX mr 0 كال .
 PFX mr 0 لل [^ل]
 PFX mr ل لل ل
 PFX mr 0 أوال .
-PFX mr 0 أفال .
 PFX mr 0 ولل [^ل]
 PFX mr ل ولل ل
 PFX mr 0 فلل [^ل]
@@ -24340,26 +24337,25 @@ PFX mr ل فلل ل
 	
 # Prefixes معرف بال - منصوب - الكتابَ	
 	
-PFX	mn	Y	13	
+PFX	mn	Y	13
 PFX mn 0 ال .
 PFX mn 0 آل .
 PFX mn 0 وال .
 PFX mn 0 فال .
+PFX mn 0 بال .
+PFX mn 0 كال .
 PFX mn 0 لل [^ل]
 PFX mn ل لل ل
-PFX mn 0 وال .
 PFX mn 0 ولل [^ل]
 PFX mn ل ولل ل
 PFX mn 0 أوال .
-PFX mn 0 أفال .
 PFX mn 0 فلل [^ل]
 PFX mn ل فلل ل
-#PFX	mn	0	لوال	.
 	
 	
 # Prefixes معرف بال - مجرور - الكتابِ	
 	
-PFX	mj	Y	36	
+PFX	mj	Y	29
 PFX mj 0 ال .
 PFX mj 0 وال .
 PFX mj 0 فال .
@@ -24368,9 +24364,6 @@ PFX mj 0 بال .
 PFX mj 0 لل [^ل]
 PFX mj ل لل ل
 PFX mj 0 كال .
-PFX mj 0 أبال .
-PFX mj 0 ألل [^ل]
-PFX mj ل ألل ل
 PFX mj 0 أكال .
 PFX mj 0 وبال .
 PFX mj 0 ولل [^ل]
@@ -24389,13 +24382,9 @@ PFX mj 0 وللل [^ل]
 PFX mj ل وللل ل
 PFX mj 0 ولكال .
 PFX mj 0 أوبال .
-PFX mj 0 أولل [^ل]
+PFX mj 0 أولل [^ل] 
 PFX mj ل أولل ل
 PFX mj 0 أوكال .
-PFX mj 0 أفبال .
-PFX mj 0 أفلل [^ل]
-PFX mj ل أفلل ل
-PFX mj 0 أفكال .
 	
 	
 # Sufixes noms الزيادات اللاحقة للاسم	
@@ -25936,13 +25925,11 @@ PFX Pg 0 ل .
 PFX Pg 0 ول .
 PFX Pg 0 فل .
 # لام التعليل
-PFX Ph Y 6
+PFX Ph Y 3
 PFX Ph 0 ل .
-PFX Ph 0 أل .
 PFX Ph 0 ول .
 PFX Ph 0 فل .
-PFX Ph 0 أَول
-PFX Ph 0 أَفل .
+
 
 #لام اﻷمر
 PFX Pi Y 3
@@ -26118,9 +26105,6 @@ PFX Ti 0 أف .
 PFX	Tj	Y	1	
 PFX Tj 0 أب .
 	
-PFX	Tk	Y	1	
-PFX Tk 0 أل .
-	
 PFX	Tl	Y	1	
 PFX Tl 0 أك .
 	
@@ -26154,8 +26138,6 @@ PFX Tu 0 أوك .
 PFX	Tv	Y	1	
 PFX Tv 0 أفب .
 	
-PFX	Tx	Y	1	
-PFX Tx 0 أفل .
 	
 PFX	Ty	Y	1	
 PFX Ty 0 أفك .
