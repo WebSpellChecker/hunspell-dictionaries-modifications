@@ -12,3 +12,7 @@ Collection of [hunspell](https://hunspell.github.io/) dictionaries that are modi
 This repository includes several dictionary files, each of which is distributed under **its own license**.
 
 If you plan to use these dictionaries in your own project (open-source or commercial), please **review the license of each dictionary you include**.
+
+## Changes
+
+Each dictionary contains its own README with information about modifications applied.
