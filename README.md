@@ -6,6 +6,7 @@ Collection of [hunspell](https://hunspell.github.io/) dictionaries that are modi
 | Name | Description | License | Source |
 | --- | --- | --- | --- |
 | ar_SA | Arabic (Saudi Arabia) | GPL 2.0/LGPL 2.1/**MPL 1.1** tri-license | https://github.com/linuxscout/ayaspell |
+| da_DK | Danish | GPL 2.0/LGPL 2.1/**MPL 1.1** tri-license | [https://github.com/linuxscout/ayaspell](https://extensions.libreoffice.org/en/extensions/show/stavekontrolden-danish-dictionary) |
 
 ## Licenses
 
